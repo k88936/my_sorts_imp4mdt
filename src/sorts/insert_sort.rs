@@ -73,5 +73,3 @@ where F: FnMut(&T) -> K,
 {
     insert_sort_by_lt(array, |a, b| f(a).lt(&f(b)))
 }
-
-
